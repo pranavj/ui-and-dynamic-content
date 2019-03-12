@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Pridi" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    
+</head>
+<body>
+        <div class="container-fluid main-panel animated fadeInDown" id="shopping-list">
+                <div class="row logo-panel">
+                    <div class="col-md-12 text-center container-fluid">
+                        <img src="images/shopping-cart.png" alt="" class="img-fluid shopping-cart-logo animated delay-1s bounceInLeft">
+                    </div>
+                </div>
+                <div class="row panel-header">
+                    <div class="col-md-12 text-center">
+                        <p class="animated swing delay-2s">BUY GROCERIES!</p>
+                    </div>
+                </div>
+                <div class="row motto-text">
+                    <div class="col-md-12 text-center">
+                        What do you need to buy today?
+                    </div>
+                </div>
+                <div class="row input-panel">
+                    <div class="col-md-12 text-center">
+                            <input type="text" class="form-control" id="user-input">
+                    </div>
+                </div>
+                <div class="row addButton">
+                    <div class="col-md-12 text-center">
+                            <button id="trigger-click" class="btn btn-lg btn-dark">Add to List</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                            <p class="error items-panel"></p>
+                            <ul class="items-panel" id="display-data"></ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                            
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="col-md-12 text-center">
+                        <div class="row">
+                            <div class="col-md-4 animated fadeInDown delay-2s">
+                                    <i class="fab fa-google-plus-g"></i>
+                            </div>
+                            <div class="col-md-4 animated fadeInDown delay-3s">
+                                    <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="col-md-4  animated fadeInDown delay-4s">
+                                    <i class="fab fa-facebook-f"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
